@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kolmonet Tour</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 23 Apr 2019 14:03:41 -0400</pubDate>
+    <lastBuildDate>Tue, 23 Apr 2019 14:03:41 -0400</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Welcome To Jekyll</title>
+        <description>&lt;p&gt;!!!!!&lt;/p&gt;
+
+&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 11 Apr 2019 00:00:00 -0400</pubDate>
+        <link>http://yourdomain.com/wellcome/</link>
+        <guid isPermaLink="true">http://yourdomain.com/wellcome/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Streaming</title>
+        <description>&lt;h1 id=&quot;how-kolmold-can-benefit-streaming-media&quot;&gt;How KolmoLD can benefit streaming media&lt;/h1&gt;
+
+&lt;p&gt;KolmoLD can also be applied to streaming media. 
+Suppose we are streaming a video at 480p off of a site that uses adaptive bitrate streaming.
+Our buffer will hold a few 480p frames to prevent stalling. Once the video player detects that our network could support 720p, our 480p frames in buffer will be discarded.&lt;/p&gt;
+
+&lt;p&gt;With the help of KolmoLD, we can avoid having to discard the buffered frames. 
+Data expressions provide many ways for us to formulate our desired higher resolution frame.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/streaming_diagram.png&quot; alt=&quot;Streaming Diagram&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In this example, we would like to upgrade our 480p BMP to 720p BMP.
+Two data expressions are provided to formulate the 720p BMP:
+1. Directly downloading the 720p image 
+2. Using a web assembly module that takes in both resolutions and uses the difference of them to build the higher resolution BMP from the lower resolution BMP&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 11 Apr 2019 00:00:00 -0400</pubDate>
+        <link>http://yourdomain.com/streaming/</link>
+        <guid isPermaLink="true">http://yourdomain.com/streaming/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Sample</title>
+        <description>&lt;p&gt;To support transfer JSON-manifest to the application for visualization you&lt;br /&gt;
+should insert in document div-element with class=”interactive-canvas” containing:&lt;br /&gt;
+1. textarea-element with class=”manifest-text” id=”DOC_UNIQ_ID”&lt;br /&gt;
+2. span-element with class=”run-button-placeholder”&lt;br /&gt;
+DOC_UNIQ_ID - unique id for textarea-element in document&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sample 1 (create manifest by doi, one formula):&lt;/p&gt;
+&lt;div class=&quot;interactive-canvas&quot;&gt;
+&lt;textarea class=&quot;manifest-text&quot; id=&quot;sample_1_manifest_text&quot; cols=&quot;50&quot; rows=&quot;5&quot;&gt;{ &quot;doi&quot;: { &quot;SHA256&quot;: &quot;1&quot; } }&lt;/textarea&gt;&lt;br /&gt;
+&lt;span class=&quot;run-button-placeholder&quot;&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sample 2 (create manifest by doi, many formulas):&lt;/p&gt;
+&lt;div class=&quot;interactive-canvas&quot;&gt;
+&lt;textarea class=&quot;manifest-text&quot; id=&quot;sample_2_manifest_text&quot; cols=&quot;50&quot; rows=&quot;5&quot;&gt;{ &quot;doi&quot;: { &quot;SHA256&quot;: &quot;0487DEB729ABE42001007D1ADBEF310FE6BCBD308B7A889458F2E1F8B1C5D14E&quot; } }&lt;/textarea&gt;&lt;br /&gt;
+&lt;span class=&quot;run-button-placeholder&quot;&gt;&lt;/span&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 11 Apr 2019 00:00:00 -0400</pubDate>
+        <link>http://yourdomain.com/sample/</link>
+        <guid isPermaLink="true">http://yourdomain.com/sample/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Ops</title>
+        <description>&lt;h1 id=&quot;kolmold-syntax-and-message-codes&quot;&gt;kolmoLD syntax and message codes&lt;/h1&gt;
+
+&lt;p&gt;data_obj
+&lt;code class=&quot;highlighter-rouge&quot;&gt;
+doi_expr := { doi: &amp;lt;value&amp;gt;, doi_scheme: &quot;SHA256&quot; }
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+meta_info = {
+    doi_expr...,
+    attribute_expr...,
+    formulas...
+}
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;network-protocol-network-protocol-messages&quot;&gt;Network protocol network protocol messages&lt;/h1&gt;
+
+&lt;h2 id=&quot;tier-1&quot;&gt;Tier 1&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;search_network_for_raw(doi_expr) -&amp;gt; [data_obj], outcome&lt;/strong&gt; - given the doi_expr, search the network if the data is available in raw&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;search_network_for_meta_info(doi_expr) -&amp;gt; [meta_info], outcome&lt;/strong&gt; - given the doi_expr, search the network for meta information about the data object of interest. Meta information includes things like all the other doi_exprs, attributes and formulas.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;is_retrieved_by_doi(doi_expr) -&amp;gt; bool&lt;/strong&gt; -looks up whether the current node has the data object identified by the doi cached locally&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;eval_formula(formula_expr) -&amp;gt; [output_data], outcome&lt;/strong&gt; - evaluate the formula. Will only execute if all the dependancies are in cache.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;**retrive_data_object_by_doi(doi_expr) -&amp;gt; [data_obj_pointer&lt;/td&gt;
+      &lt;td&gt;nil]**&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;tier-2&quot;&gt;Tier 2&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;flush_retrieved_do_by_doi(doi_expr) -&amp;gt; bool&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;is_retrieved_by_formula(formula) -&amp;gt; bool&lt;/strong&gt; -looks up whether the current node has the data object identified by the formula&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 11 Apr 2019 00:00:00 -0400</pubDate>
+        <link>http://yourdomain.com/ops/</link>
+        <guid isPermaLink="true">http://yourdomain.com/ops/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Objects</title>
+        <description>&lt;h2 id=&quot;data-objects-and-how-they-relate-to-each-other&quot;&gt;Data objects and how they relate to each other&lt;/h2&gt;
+
+&lt;p&gt;Computation can viewed as data objects being transfomed into other data objects. Here by a data object, we refer to arbitrary chunk of data.&lt;/p&gt;
+
+&lt;p&gt;Data objects may contain data structures, assets.&lt;/p&gt;
+
+&lt;p&gt;KolmoLD specifies a special kind of data objects that can contain arbitrary algorithms: kolmoblocks. The alogirthms are encoded in a  Webassembly-based bytecode format.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 11 Apr 2019 00:00:00 -0400</pubDate>
+        <link>http://yourdomain.com/objects/</link>
+        <guid isPermaLink="true">http://yourdomain.com/objects/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Hello</title>
+        <description>&lt;h1 id=&quot;overview&quot;&gt;Overview&lt;/h1&gt;
+
+&lt;p&gt;KolmoLD is a network protocol that rethinks the tech stack behind the modern internet.&lt;/p&gt;
+
+&lt;p&gt;The tech stack that powers the internet (IP, TCP, BGP) relies on the model where a internet resource runs on its own machine:&lt;/p&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;p&gt;Within that model, the internet resource and the network identity of the computer it runs on is interchangable.&lt;/p&gt;
+
+&lt;p&gt;As the internet evolved, limitations of that approach became apparent. The industry moved towards distributed systems, where ainternetb resource is run on multiple machines.&lt;/p&gt;
+
+&lt;p&gt;Such an approach is dictated by the following requirements:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Scalability: a internet resource’s workload does not fit in a single computer [1]&lt;/li&gt;
+  &lt;li&gt;Edge hosting: performance engineering requires hostinginternetb resources as geographically close to the consumer as possible [2]&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The art of distributed web system is building a distributed system that behave as if it was fitting the single computer - singleinternetb resource pattern [1]. Multiple challenges and limitations in the domain stem from this limitation.&lt;/p&gt;
+
+&lt;p&gt;At the core of KolmoLD is the concept of separation of concerns: separating the logic of internet resource and the network computers that execute it.&lt;/p&gt;
+
+&lt;p&gt;References:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dataintensive.net/&quot;&gt;“Designing Data-Intensive Applications”&lt;/a&gt;, Martin Kleppman&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hpbn.co/&quot;&gt;“High Performance Browser Networking”&lt;/a&gt;, Ilya Grigorik&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Thu, 11 Apr 2019 00:00:00 -0400</pubDate>
+        <link>http://yourdomain.com/hello/</link>
+        <guid isPermaLink="true">http://yourdomain.com/hello/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
